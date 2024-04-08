@@ -139,4 +139,40 @@ footer {
         margin-bottom: 10px; /* Adjust margin-bottom as needed */
     }
 }
+/* Base Styles */
+/* Your existing CSS here... */
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 1200px) {
+    /* Adjustments for laptops and larger tablets */
+    .article-content img {
+        max-width: 150px; /* Decrease image size for larger screens */
+        margin-bottom: 15px; /* Adjust margin as needed */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* Adjustments for smaller laptops and tablets */
+    .article-content img {
+        max-width: 120px; /* Decrease image size further */
+        margin-bottom: 10px; /* Adjust margin as needed */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for tablets and large mobile phones */
+    .article-content img {
+        max-width: 100px; /* Decrease image size */
+        margin-bottom: 10px; /* Adjust margin as needed */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* Adjustments for mobile phones */
+    .article-content img {
+        max-width: 80px; /* Decrease image size even further */
+        margin-bottom: 5px; /* Adjust margin as needed */
+    }
+}
+
 
